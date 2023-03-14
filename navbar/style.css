@@ -35,6 +35,12 @@
     font-family: 'Roboto', sans-serif;
   }
 
+  @media (min-width: 450px){
+    li{
+        padding: 0 .5rem;
+        transition: all .6s ease-in-out;
+    }
+  }
 
   .nav__container{
 
